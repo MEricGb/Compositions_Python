@@ -1,1 +1,1 @@
-# Composition_Python
+I have developed a web application that includes a database created using the MySQL database management system. The database contains two tables, Composers and Compositions, which have an M:N relationship. For the backend, I used Flask, while the frontend was built using HTML, CSS, and JavaScript.
