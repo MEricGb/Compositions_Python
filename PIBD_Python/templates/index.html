@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Composers and Compositions</h1>
+        
+        <div class="buttons">
+            <button id="compozitoriButton">Composers</button><br>
+            <button id="compozitiiButton">Compositions</button><br>
+            <button id="compozitoriCompozitiiButton">Composers and Compositions</button><br>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
